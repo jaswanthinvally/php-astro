@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif,poppins;
+
+}
+/* header */
+
+.header-main { 
+    width: 100vw;
+
+
+}
+
+.header-nav {
+    height: 10vh;
+    background-color: #FD6D00;
+    
+    align-items: center;
+    
+
+}
+.header-ul {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.glowing-icon {
+    font-size: 50px; /* Size of the icon */
+    color: #4A90E2; /* Base color of the icon */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.glowing-icon:hover {
+    transform: scale(1.1); /* Slightly scale the icon on hover */
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.8), 0 0 40px rgba(74, 144, 226, 0.6), 0 0 60px rgba(74, 144, 226, 0.4); /* Glowing effect */
+}
+
+.body-content {
+    width: 100vw;
+}
+.whatsapp-image {
+    height: 10vw;
+    position: absolute;
+    top: 75%;
+    right: 75%;
+}
+
+.trans-icon {
+    border-radius: 30px;
+}
+.call-icon {
+    background: #f3a50b;
+    
+
+}
