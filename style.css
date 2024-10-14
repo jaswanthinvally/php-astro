@@ -54,3 +54,28 @@
     
 
 }
+.footer {
+    height: 40vh;
+    background:#f3a50b;
+}
+.map-iframes {
+
+    height: 25%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.footer-div {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+#google_translate_element {
+    background: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}

@@ -7,6 +7,7 @@
     
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://translate.google.com/translate_static/js?client=client-name&hl=en"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -27,7 +28,7 @@
     <nav class="header-nav flex justify-around font-semibold"> <!-- Corrected 'jusify-around' to 'justify-around' -->
         
         <ul>
-            <li>Agathira Nadi Josium</li>
+            <li>sample site</li>
         </ul>
 
         <ul class="flex gap-3">
@@ -41,7 +42,8 @@
             <li><a href="./pages/works.php">about</a></li>
             <li class="call-icon rounded-md p-1"><a href="tel:+1234567890">Call Now 📞</a></li>
         </ul>
-
+        <div   
+        id="google_translate_element"></div>
     </nav> 
 </header>
 
